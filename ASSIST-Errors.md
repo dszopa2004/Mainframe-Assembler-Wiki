@@ -5,7 +5,7 @@ Info about ASSIST can be found here: https://faculty.cs.niu.edu/~byrnes/csci360/
 ## 222 RECORD LIMIT EXCEEDED
 By definition, this error means the user attempted to print or punch more records than was given by combination of R, RD, and RX option values. Execution has been terminated, and at least a partial dump given.
 
-#### Debugging with carriage control characters
+#### Debugging by Checking Carriage Control Characters
 A potential fix for this error is to look at the carriage control characters used in your output/header buffers and make sure that they are correct.    
 
 For example, having multiple headers with a carriage control character of '1' can cause this error:
@@ -35,7 +35,7 @@ HEADER2  DC    C' '
 ## 224 BRANCH OUT OF PROGRAM AREA
 By definition, this error means the user program attempted to branch outside of its area. The only branch outside not flagged this way is a branch to the return address originally supplied to the user program in register 14.   
 
-#### Debugging by checking input buffer size
+#### Debugging by Checking Input Buffer Size
 A potential fix for this error is to declare a full 80-byte input buffer.  
 
 For example, the following input buffer will throw a `224 BRANCH OUT OF PROGRAM AREA` error:
