@@ -818,7 +818,7 @@ _Note: overflow does not automatically occur if the first operand is shorter tha
 **Mnemonic: EDMK**  
 **Instruction Type: NEED TO DOUBLE CHECK**  
 **Format 1:** `label EDMK D1(L1,B1),D2(B2)`  
-**Format 2:** `label EDMK ONUM1(15),PNUM1`
+**Format 2:** `label EDMK ONUM1(15),PNUM1`  
 **Sets the condition code**
 
 - `EDMK` is used exactly the same as `ED`, but `EDMK` places the address of the first non-zero digit (from left to right in the output field) in register 1
