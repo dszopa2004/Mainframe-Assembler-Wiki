@@ -62,3 +62,7 @@ LABEL5   DS    ZL5
 LABEL6   DS    CL24
          DS    CL28
 ```
+
+## AS131 UNRESOLVED EXTERNAL REFERENCE
+
+The symbol used in a V-type constant is not defined in the assembly, or is defined but not declared a CSECT or ENTRY. ASSIST does not link multiple assemblies, so this is an error. 
