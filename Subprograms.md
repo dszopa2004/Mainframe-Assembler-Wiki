@@ -1,3 +1,3 @@
 # Subprograms
 
-When accessing a parameter, it is 0(length, register)
+An in-depth guide to subprograms will be posted here.
