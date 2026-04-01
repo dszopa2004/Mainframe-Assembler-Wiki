@@ -2,6 +2,14 @@
 This page covers how to create multiple base registers in one program.  
 For some programs, it may be necessary to have two or more base registers.  
 
+Below the standard entry linkage, add the following block:  
+```
+LA    11,4095(,12)      ESTABLISH                                                  
+         LA    11,1(,11)               SECOND                                               
+         USING CNAME+4096,11              BASE REGISTER    
+```
+                                       
+Here is what the full implementation looks like:            
 ```
 *****************************************************************                           
 *                                                                                           
