@@ -11,3 +11,10 @@ A repository for the wiki for CSCI360 at Northern Illinois University
 This is a link to a simulated mainframe: https://www.prince-webdesign.nl/tk5
 
 # Instructions to Contribute
+Contributions can be made by:
+1. Forking the repository
+2. Creating a branch in the forked repository
+3. Make any changes for your contribution
+4. Push the branch to the repository and create a pull request
+
+After the pull request is created, it will be reviewed before it is incorporated.
