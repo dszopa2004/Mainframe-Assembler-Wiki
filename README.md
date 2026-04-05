@@ -1,5 +1,5 @@
-# NIU-Mainframe-Assembler-Wiki
-A repository for the wiki for CSCI360 at Northern Illinois University
+# Mainframe-Assembler-Wiki
+A repository for the wiki for IBM370 Assembler, designed to make understanding IBM370 Assembler easier.
 
 **The information provided was created by students, for students.**  
 
