@@ -31,6 +31,7 @@ In instructions, you **ALWAYS** specify the even register first, and the system 
 The high-order 32-bit value in the even register and the low-order 32-bit value in the odd register is seen more clearly in division.
 
 ## Using Even-Odd Pairs within Instructions
+The instructions that use even-odd pairs are mainly multiplication and division instructions. Visit [this](https://github.com/dszopa2004/Mainframe-Assembler-Wiki/blob/main/Instructions.md) page to view them.  
 
 ### Even-Odd Pairs with RX-Type Instructions
 
