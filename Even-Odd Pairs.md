@@ -12,7 +12,7 @@ Here is the list of even-odd pairs:
 - 12 and 13
 - 14 and 15
 
-## Using Even-Odd Pairs
+## Even-Odd Pairs Explained
 Even-odd pairs are a way of representing big, 64-bit numbers while utilizing a 32-bit architecture. This can be difficult to understand, so here is a visual example.
 
 Even-odd pairs can be explained visually by using drawers. Imagine that there are two drawers, a top drawer and a bottom drawer.  
@@ -29,6 +29,8 @@ An even-odd pair is basically two registers treated as one larger value.
 In instructions, you **ALWAYS** specify the even register first, and the system automatically uses the next odd register as part of the pair.  
 
 The high-order 32-bit value in the even register and the low-order 32-bit value in the odd register is seen more clearly in division.
+
+## Using Even-Odd Pairs within Instructions
 
 ### Even-Odd Pairs with RX-Type Instructions
 
