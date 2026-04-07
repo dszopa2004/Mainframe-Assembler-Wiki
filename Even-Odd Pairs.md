@@ -34,5 +34,7 @@ The high-order 32-bit value in the even register and the low-order 32-bit value 
 The instructions that use even-odd pairs are mainly multiplication and division instructions. Visit [this](https://github.com/dszopa2004/Mainframe-Assembler-Wiki/blob/main/Instructions.md) page to view them.  
 
 ### Even-Odd Pairs with RX-Type Instructions
+`Multiply` (mnemonic M) and `Divide` (mnemonic D) are the two RX-type instructions that use even-odd pairs that will be covered in this page.  
 
 ### Even-Odd Pairs with RR-Type Instructions
+`Multiply Register` (mnemonic MR) and `Divide Register` (mnemonic DR) are the two RR-type instructions that use even-odd pairs that will be covered in this page.  
